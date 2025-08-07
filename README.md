@@ -1,7 +1,7 @@
 # React Chrome UI Clone
 
 ## 🚀 Tools Used
-- React (Vite or CRA)
+- React (Vite)
 - Plain CSS
 - React Icons (for icons)
 
@@ -9,7 +9,7 @@
 
 1. Clone the repo
 2. Run `npm install`
-3. Run `npm run dev` (for Vite) or `npm start` (for CRA)
+3. Run `npm run dev` (for Vite)
 
 ## ✨ Features
 - Chrome-like top bar
