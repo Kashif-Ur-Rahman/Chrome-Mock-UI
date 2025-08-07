@@ -1,0 +1,17 @@
+.window-controls {
+  display: flex;
+  gap: 8px;
+  padding: 4px 12px;
+}
+.control-btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+.minimize { background: #fbbc05; }
+.maximize { background: #34a853; }
+.close { background: #ea4335; }
+.control-btn:hover {
+  filter: brightness(90%);
+}

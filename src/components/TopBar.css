@@ -1,0 +1,6 @@
+.top-bar {
+  display: grid;
+  grid-template-columns: auto 1fr 2fr auto;
+  align-items: center;
+  background: #f1f3f4;
+}

@@ -1,0 +1,99 @@
+
+.main-content {
+  flex: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+  padding-bottom: 80px;
+  margin-top: 80px;
+}
+
+.google-logo {
+  font-size: 56px;
+  font-weight: 500;
+  color: #5f6368;
+  margin-bottom: 24px;
+  font-family: 'Product Sans', sans-serif;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f1f3f4;
+  padding: 8px 16px;
+  border-radius: 24px;
+  width: 480px;
+  max-width: 90%;
+  box-shadow: none;
+  gap: 12px;
+}
+
+.search-icon {
+  color: #5f6368;
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 14px;
+  color: #202124;
+}
+
+.action-icons {
+  display: flex;
+  gap: 12px;
+  color: #5f6368;
+}
+
+.shortcut-grid {
+  display: flex;
+  gap: 32px;
+  margin-top: 36px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.shortcut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  font-size: 13px;
+  color: #3c4043;
+}
+
+.shortcut-icon {
+  background-color: #f1f3f4;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.customize-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: #f1f3f4;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 16px;
+  font-size: 13px;
+  cursor: pointer;
+  color: #3c4043;
+  transition: background-color 0.2s;
+}
+
+.customize-btn:hover {
+  background-color: #dadce0;
+}

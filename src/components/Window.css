@@ -1,0 +1,17 @@
+.chrome-window {
+  border-radius: 0; /* remove rounding if full-screen is desired */
+  background: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: none; /* optional: removes shadow for clean fullscreen */
+  overflow: hidden;
+}
+
+.content-area {
+  flex: 1;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}

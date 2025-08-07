@@ -1,0 +1,32 @@
+.right-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 16px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 13px;
+  color: #3c4043;
+}
+
+.action-link {
+  text-decoration: none;
+  color: #3c4043;
+  transition: text-decoration 0.2s;
+}
+
+.action-link:hover {
+  text-decoration: underline;
+}
+
+.apps-icon {
+  font-size: 16px;
+  color: #5f6368;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.apps-icon:hover {
+  background-color: rgba(60, 64, 67, 0.1);
+}

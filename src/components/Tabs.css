@@ -1,0 +1,24 @@
+.tabs {
+  display: flex;
+  gap: 4px;
+  padding: 8px 0 0 12px;
+}
+.tab {
+  padding: 4px 10px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 13px;
+  background: #e8eaed;
+  border-radius: 6px 6px 0 0;
+  cursor: pointer;
+  color: #3c4043;
+}
+.tab.active {
+  background: white;
+  border-bottom: 1px solid white;
+}
+.new-tab {
+  font-size: 16px;
+}
+.tab:hover {
+  background: #dadce0;
+}
